@@ -1,0 +1,38 @@
+body {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: #222;
+    color: #fff;
+}
+
+.imageThumb {
+    width: 75px;
+    height: 75px;
+    border: 1px inset #000;
+    margin: 5px;
+    position: absolute;
+    left:0;
+
+}
+
+#thumbContainer {
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+}
+
+.selected {
+    border: 1px inset #FF0000;
+}
+
+.image {
+    height: 600px;
+}
+
+.imageContainer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+}
+

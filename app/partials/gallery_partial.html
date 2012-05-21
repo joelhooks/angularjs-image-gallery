@@ -1,0 +1,13 @@
+<img src="assets/angular-small.png" alt="">
+<div class="imageContainer span12">
+<full-image img-src="selectedImage"></full-image>
+<div id="thumbContainer">
+  <thumb-image class="imageThumb"
+               ng-repeat="photo in photos"
+               ng-src="{{photo.thumbUrl}}"
+               ng-click="$parent.selectImg(photo)"
+               img-src="selectedImage"
+               photos="{{photos}}">
+  </thumb-image>
+</div>
+</div>

@@ -1,3 +1,3 @@
-# Angualr Image Gallery Demo
+# Angular Image Gallery Demo
 
 This application is a demonstration of the AngularJS MVC framework.

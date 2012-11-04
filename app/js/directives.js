@@ -6,7 +6,7 @@
         return {
             restrict: 'E',
             scope: {
-                imgSrc: 'accessor'
+                imgSrc: '&'
             },
             // The linking function will add behavior to the template
             link: function(scope, element, attrs) {
@@ -22,8 +22,7 @@
         return {
             restrict: 'E',
             scope: {
-                imgSrc: 'accessor',
-                photos: 'bind'
+                imgSrc: '&'
             },
             link: function(scope, element, attrs) {
                 var photoIndex = scope.$parent.$index,
